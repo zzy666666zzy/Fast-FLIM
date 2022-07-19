@@ -5,10 +5,10 @@ This ELM can extract individual fluorescence components from bi-exponential deca
 
 Files explanation:
 
-: Training (Synthetic) data.
-: Test data.
-: Real prostatic cell data coated with gold nanoprobe
-: Training and testing file
+.mat: Training (Synthetic) data.
+.mat: Test data.
+.mat: Real prostatic cell data coated with gold nanoprobe.
+.m: Training and testing file.
 
 For more details about the ELM, comparisons, and optics setups, please refer to the paper. Please cite this paper if you find it useful. Thanks.
 
