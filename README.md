@@ -8,7 +8,7 @@ Files explanation:
 Synthetic_TrainData_bi_decay1.mat: Training (Synthetic) data of mono-exponantial decays.  
 Synthetic_TestData_single_decay.mat: Test (Synehetic) data for mono-exponential decays.  
 Synthetic_TrainData_bi_decay1.mat: Training (Synthetic) data of bi-exponantial decays.  
-Synthetic_TestData_bi_decay.mat: Test (Synehetic) data for bi-exponential decays. 
+Synthetic_TestData_bi_decay.mat: Test (Synehetic) data for bi-exponential decays.  
 cluster_100_cycle.mat: Real prostatic cell data coated with gold nanoprobe.  
 TrainNTestELM.m: Training and testing file, including implementation of NLSF.  
 
