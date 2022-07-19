@@ -71,3 +71,22 @@ PredictedAlpha=ResultVec(:,3);
 PredictedTauAve_ELM=ResultVec(:,1).*ResultVec(:,3)+ResultVec(:,2).*(1-(ResultVec(:,3)));
 
 label=[label_tau1,label_tau2,label_alpha];
+
+%NLSF synthetic test
+clear;
+load Synthetic_TestData_bi_decay.mat
+t=1:256;
+t0=14+randi(3)-2;
+h=0.0390625;
+FWHM=0.1673;
+sig0 =FWHM/2.3548/h;
+I=exp(-(t-t0).^2/(2*sig0^2));
+% Trust-Region-Reflective Levenberg-Marquardt
+x0=[0.5,1.5,0.5];
+tic
+[tau1_lsq,tau2_lsq,alpha_lsq]=LSM_Deconvolution(y,I,x0);
+toc
+PredictedTauAve_LSQ=tau1_lsq.*alpha_lsq+tau2_lsq.*(1-alpha_lsq);
+TestingAccuracy=mae(tau_ave' - PredictedTauAve_LSQ);
+fprintf('TauA MAE %d\n',TestingAccuracy);
+fprintf('LSQ fitting done\n');
