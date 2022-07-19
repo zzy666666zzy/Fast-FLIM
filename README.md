@@ -5,12 +5,12 @@ This ELM can extract individual fluorescence components from bi-exponential deca
 
 Files explanation:
 
-.mat: Training (Synthetic) data of mono-exponantial decays.  
-.mat: Test (Synehetic) data for mono-exponential decays.  
+Synthetic_TrainData_bi_decay1.mat: Training (Synthetic) data of mono-exponantial decays.  
+Synthetic_TestData_single_decay.mat: Test (Synehetic) data for mono-exponential decays.  
 Synthetic_TrainData_bi_decay1.mat: Training (Synthetic) data of bi-exponantial decays.  
-.mat: Test (Synehetic) data for bi-exponential decays. 
-.mat: Real prostatic cell data coated with gold nanoprobe.  
-.m: Training and testing file.  
+Synthetic_TestData_bi_decay.mat: Test (Synehetic) data for bi-exponential decays. 
+cluster_100_cycle.mat: Real prostatic cell data coated with gold nanoprobe.  
+TrainNTestELM.m: Training and testing file, including implementation of NLSF.  
 
 For more details about the ELM, comparisons, and optics setups, please refer to the paper. Please cite this paper if you find it useful. Thanks.
 
