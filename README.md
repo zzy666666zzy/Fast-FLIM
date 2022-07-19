@@ -14,5 +14,5 @@ TrainNTestELM.m: Training and testing file, including implementation of NLSF.
 
 For more details about the ELM, comparisons, and optics setups, please refer to the paper. Please cite this paper if you find it useful. Thanks.
 
-Citation:
+Citation:  
 Zang, Z., Xiao, D., Wang, Q., LI, Z., Xie, W., Chen, Y., & Li, D. D. U. (2022). Fast analysis of time‐domain fluorescence lifetime imaging via extreme learning machine. Sensors, 22(10), [3758]. https://doi.org/10.3390/s22103758
