@@ -7,7 +7,7 @@ Files explanation:
 
 .mat: Training (Synthetic) data of mono-exponantial decays.  
 .mat: Test (Synehetic) data for mono-exponential decays.  
-.mat: Training (Synthetic) data of bi-exponantial decays.  
+Synthetic_TrainData_bi_decay1.mat: Training (Synthetic) data of bi-exponantial decays.  
 .mat: Test (Synehetic) data for bi-exponential decays. 
 .mat: Real prostatic cell data coated with gold nanoprobe.  
 .m: Training and testing file.  
