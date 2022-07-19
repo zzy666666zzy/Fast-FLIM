@@ -5,8 +5,10 @@ This ELM can extract individual fluorescence components from bi-exponential deca
 
 Files explanation:
 
-.mat: Training (Synthetic) data.  
-.mat: Test data.  
+.mat: Training (Synthetic) data of mono-exponantial decays.  
+.mat: Test (Synehetic) data for mono-exponential decays.  
+.mat: Training (Synthetic) data of bi-exponantial decays.  
+.mat: Test (Synehetic) data for bi-exponential decays. 
 .mat: Real prostatic cell data coated with gold nanoprobe.  
 .m: Training and testing file.  
 
