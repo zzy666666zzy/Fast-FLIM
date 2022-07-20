@@ -8,7 +8,7 @@ Synthetic_TestData_single_decay.mat: Test (Synehetic) data for mono-exponential 
 Synthetic_TrainData_bi_decay1.mat: Training (Synthetic) data of bi-exponential decays.  
 Synthetic_TestData_bi_decay.mat: Test (Synehetic) data for bi-exponential decays.  
 cluster_100_cycle.mat: Real prostatic cell data coated with gold nanoprobe.  
-TrainNTestELM.m: Training and testing file, including implementation of NLSF and generation of synthetic IRF.
+TrainNTestELM.m: Training and testing file, including implementation of NLSF and generation of synthetic IRF.  
 DataGen.m: Basic mono- and bi-exponential decays generation.
 
 For more details about the ELM, comparisons, and optics setups, please refer to the paper. Please cite this paper if you find it useful. Thanks.  
